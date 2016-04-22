@@ -1,0 +1,23 @@
+<h2>Out2 A2 Component + Menu</h2>
+<div class="row">
+  <div class="col-md-2">
+    <!-- <h6>Lien 1 and 2 for out2A1Component</h6> -->
+    <div class="btn-group-vertical" role="group">
+      <a type="button" class="btn btn-primary"><h4>Menu A2</h4></a>
+      <a [routerLink]="['Lien1']" type="button" class="btn btn-default">Lien 1 A2</a>
+      <a [routerLink]="['Lien2']" type="button" class="btn btn-default">Lien 2 A2</a>
+      <!--<ul class="nav nav-pills nav-stacked">
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a>Profile</a></li>
+        <li role="presentation"><a>Messages</a></li>
+      </ul>-->
+    </div>
+  </div>
+  <div class="col-md-10">
+    <div class="jumbotron">
+      <div class="container">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>

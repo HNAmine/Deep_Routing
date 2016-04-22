@@ -1,0 +1,32 @@
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand r">MySocial</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a [routerLink]="['Out2A1']">Out2A1</a>
+                </li>
+                <li>
+                    <a [routerLink]="['Out2A2']">Out2A2</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<h1>ADMIN PAGES</h1>
+<router-outlet></router-outlet>
+<!-- <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <router-outlet></router-outlet>
+    </div>
+</div> -->
